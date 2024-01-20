@@ -1,0 +1,49 @@
+package com.demo.model;
+
+public class Employee {
+
+	private int eid;
+	private String ename;
+	private String mobileno;
+	private String emailid;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(int eid, String ename, String mobileno, String emailid) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.mobileno = mobileno;
+		this.emailid = emailid;
+	}
+	public int getEid() {
+		return eid;
+	}
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public String getMobileno() {
+		return mobileno;
+	}
+	public void setMobileno(String mobileno) {
+		this.mobileno = mobileno;
+	}
+	public String getEmailid() {
+		return emailid;
+	}
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", mobileno=" + mobileno + ", emailid=" + emailid + "]";
+	}
+	
+}

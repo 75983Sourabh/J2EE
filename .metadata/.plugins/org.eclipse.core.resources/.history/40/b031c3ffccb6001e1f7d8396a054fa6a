@@ -1,0 +1,13 @@
+package com.demo.model;
+
+public class MyUser {
+	private int Uid;
+	private String Username;
+	private String Roles;
+	public MyUser() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Jan 20 09:43:14 IST 2024
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\hp\\.m2\\repository\\org\\springframework\\spring-web\\5.2.8.RELEASE\\spring-web-5.2.8.RELEASE.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE.jar
+org.eclipse.jst.j2ee.server\:MyfirstHibernate=WEB-INF/lib/MyfirstHibernate-0.0.1-SNAPSHOT.jar
